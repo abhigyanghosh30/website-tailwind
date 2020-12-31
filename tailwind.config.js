@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors');
+
 module.exports = {
   purge: [],
   darkMode: 'media', // or 'media' or 'class'
@@ -22,6 +23,9 @@ module.exports = {
         900: '#111628',
       },
       'regal-gold': '#bba559',
+    },
+    fontFamily: {
+      custom: ['URW Gothic L', 'sans-serif'],
     },
   },
   variants: {

@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <Hero />
         <svg
-          className="hidden lg:block relative right-0 w-1/2 object-contain transform -translate-x-1/2 h-full text-regal-blue-300"
+          className="block relative right-0 w-1/2 object-contain transform -translate-x-1/2 h-full text-silver-500"
           fill="currentColor"
           viewBox="0 0 1920 1080"
           preserveAspectRatio="none"

@@ -31,7 +31,7 @@ class Contact extends Component {
                         name="first_name"
                         id="first_name"
                         autocomplete="given-name"
-                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
@@ -46,7 +46,7 @@ class Contact extends Component {
                         name="last_name"
                         id="last_name"
                         autocomplete="family-name"
-                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
@@ -61,7 +61,7 @@ class Contact extends Component {
                         name="email_address"
                         id="email_address"
                         autocomplete="email"
-                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
@@ -75,7 +75,7 @@ class Contact extends Component {
                         type="text"
                         name="subject"
                         id="subject"
-                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
                     <div className="col-span-6">
@@ -87,7 +87,7 @@ class Contact extends Component {
                       <textarea
                         name="message"
                         id="message"
-                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
                   </div>

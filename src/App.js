@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import About from './About';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/about" component={About}></Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -22,7 +22,7 @@ class Contact extends Component {
                   <div className="grid grid-cols-6 gap-6">
                     <div className="col-span-6 sm:col-span-3">
                       <label
-                        for="first_name"
+                        htmlFor="first_name"
                         className="block text-sm font-medium text-gray-700">
                         First name
                       </label>
@@ -30,14 +30,14 @@ class Contact extends Component {
                         type="text"
                         name="first_name"
                         id="first_name"
-                        autocomplete="given-name"
+                        autoComplete="given-name"
                         className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
                     <div className="col-span-6 sm:col-span-3">
                       <label
-                        for="last_name"
+                        htmlFor="last_name"
                         className="block text-sm font-medium text-gray-700">
                         Last name
                       </label>
@@ -45,14 +45,14 @@ class Contact extends Component {
                         type="text"
                         name="last_name"
                         id="last_name"
-                        autocomplete="family-name"
+                        autoComplete="family-name"
                         className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
                     <div className="col-span-6 sm:col-span-4">
                       <label
-                        for="email_address"
+                        htmlFor="email_address"
                         className="block text-sm font-medium text-gray-700">
                         Email address
                       </label>
@@ -60,14 +60,14 @@ class Contact extends Component {
                         type="text"
                         name="email_address"
                         id="email_address"
-                        autocomplete="email"
+                        autoComplete="email"
                         className="mt-1 focus:ring-regal-blue-500 focus:border-regal-blue-500 block w-full shadow-sm sm:text-sm border-silver-300 rounded-md"
                       />
                     </div>
 
                     <div className="col-span-6">
                       <label
-                        for="subject"
+                        htmlFor="subject"
                         className="block text-sm font-medium text-gray-700">
                         Subject
                       </label>
@@ -80,7 +80,7 @@ class Contact extends Component {
                     </div>
                     <div className="col-span-6">
                       <label
-                        for="message"
+                        htmlFor="message"
                         className="block text-sm font-medium text-gray-700">
                         Message
                       </label>

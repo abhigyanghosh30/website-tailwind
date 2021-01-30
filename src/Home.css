@@ -1,0 +1,6 @@
+.glass {
+  backdrop-filter: blur(2rem);
+}
+.glass::backdrop {
+  filter: blur(2rem);
+}

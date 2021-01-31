@@ -11,10 +11,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(10rem);
+  filter: blur(1rem);
   z-index: -1;
 }
-.section,
+.fp-tableCell,
 .glass::before {
-  background: url('http://localhost:3000/lava_bg.svg') 0 / cover fixed;
+  background: url('http://localhost:3000/lava_bg.svg') 0 / cover no-repeat fixed;
+  /* background-position: center; */
 }
